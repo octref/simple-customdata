@@ -1,0 +1,4 @@
+{
+  "html.experimental.customData": ["./html.json"],
+  "css.experimental.customData": ["./css.json"]
+}

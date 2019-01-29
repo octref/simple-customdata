@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "tags": [{
+      "name": "my-button",
+      "description": "My button",
+      "attributes": [{
+        "name": "type",
+        "description": "My button type",
+        "values": [
+          { "name": "alert" }
+        ]
+      }]
+  }]
+}
