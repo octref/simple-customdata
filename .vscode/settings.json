@@ -3,12 +3,12 @@
   "css.experimental.customData": ["./css.json"],
   "json.schemas": [
     {
-      "fileMatch": ["**/css.json"],
-      "url": "./css.schema.json"
+      "fileMatch": ["/html.json"],
+      "url": "https://raw.githubusercontent.com/Microsoft/vscode-html-languageservice/master/docs/customData.schema.json"
     },
     {
-      "fileMatch": ["**/html.json"],
-      "url": "./html.schema.json"
+      "fileMatch": ["/css.json"],
+      "url": "https://raw.githubusercontent.com/Microsoft/vscode-css-languageservice/master/docs/customData.schema.json"
     }
   ]
 }

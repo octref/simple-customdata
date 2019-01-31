@@ -15,6 +15,25 @@ See https://code.visualstudio.com/updates/v1_31 for details.
 - [HTML Custom Data](https://github.com/Microsoft/vscode-html-languageservice/blob/master/docs/customData.md)
 - [CSS Custom Data](https://github.com/Microsoft/vscode-css-languageservice/blob/master/docs/customData.md)
 
+## Settings
+
+This setting checks your custom data against latest schema:
+
+```json
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["/html.json"],
+      "url": "https://raw.githubusercontent.com/Microsoft/vscode-html-languageservice/master/docs/customData.schema.json"
+    },
+    {
+      "fileMatch": ["/css.json"],
+      "url": "https://raw.githubusercontent.com/Microsoft/vscode-css-languageservice/master/docs/customData.schema.json"
+    }
+  ]
+}
+```
+
 ## Related
 
 See a real-world example at https://github.com/octref/svg-data.
