@@ -17,7 +17,7 @@ See https://code.visualstudio.com/updates/v1_31 for details.
 
 ## Settings
 
-This setting checks your custom data against latest schema:
+This setting checks the custom data against latest schema:
 
 ```json
 {
