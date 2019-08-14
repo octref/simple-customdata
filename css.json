@@ -1,11 +1,34 @@
 {
   "version": 1,
-  "properties": [{
-    "name": "my-size",
-    "description": "Compiles down to `width` and `height`. See details at https://github.com/postcss/postcss-size"
-  }],
-  "pseudoClasses": [{
-    "name": ":my-link",
-    "description": ":any-link pseudo class. See details at https://preset-env.cssdb.org/features#any-link-pseudo-class"
+  "properties": [
+    {
+      "name": "my-size",
+      "description": "Compiles down to `width` and `height`. See details at https://github.com/postcss/postcss-size"
+    }
+  ],
+  "atDirectives": [
+    {
+      "name": "@tailwind",
+      "description": {
+        "kind": "markdown",
+        "value": "Use the [`@tailwind`](https://tailwindcss.com/docs/functions-and-directives/#tailwind) directive to insert Tailwind's base, components, utilities and screens styles into your CSS."
+      }
+    }
+  ],
+  "pseudoClasses": [
+    {
+      "name": ":my-link",
+      "description": { 
+        "kind": "markdown",
+        "value": ":my-link pseudo class. See details at https://preset-env.cssdb.org/features#any-link-pseudo-class"
+      }
+    }
+  ],
+  "pseudoElements": [{
+    "name": "::my-element",
+    "description": {
+      "kind": "markdown",
+      "value": "My element. Sample usage\n```css\np::my-element { }\n```\n"
+    }
   }]
 }

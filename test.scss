@@ -1,0 +1,17 @@
+:my-link {
+  my-size: 4px;
+}
+
+::my-element {
+
+}
+
+@tailwind foo;
+
+@mixin unify-parent($child) {
+  @at-root #{selector-unify(&, $child)} {
+    @content;
+  }
+}
+
+.test { @at-root { }

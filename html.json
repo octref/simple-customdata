@@ -1,14 +1,36 @@
 {
   "version": 1,
-  "tags": [{
-    "name": "my-button",
-    "description": "My button",
-    "attributes": [{
-      "name": "type",
-      "description": "My button type",
-      "values": [
-        { "name": "alert" }
+  "tags": [
+    {
+      "name": "my-button",
+      "description": {
+        "kind": "markdown",
+        "value": "Bootstrap `<my-button>`. \n\n[Official Docs](https://getbootstrap.com/docs/4.0/components/buttons/)"
+      },
+      "attributes": [
+        {
+          "name": "type",
+          "description": {
+            "kind": "markdown",
+            "value": "Bootstrap button type.\n\nSample usage:\n\n```\n<my-button type=\"alert\"/>\n```\n\n[Official Docs](https://getbootstrap.com/docs/4.0/components/buttons/#examples)"
+          },
+          "values": [
+            {
+              "name": "alert",
+              "description": {
+                "kind": "markdown",
+                "value": "Bootstrap alert button. \n\n[Official Docs](https://getbootstrap.com/docs/4.0/components/alerts/)."
+              }
+            }
+          ]
+        }
       ]
-    }]
-  }]
+    }
+  ],
+  "globalAttributes": [
+    {
+      "name": "foo",
+      "description": "bar"
+    }
+  ]
 }
