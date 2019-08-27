@@ -1,14 +1,4 @@
 {
-  "html.experimental.customData": ["./html.json"],
-  "css.experimental.customData": ["./css.json"],
-  "json.schemas": [
-    {
-      "fileMatch": ["/html.json"],
-      "url": "https://raw.githubusercontent.com/Microsoft/vscode-html-languageservice/master/docs/customData.schema.json"
-    },
-    {
-      "fileMatch": ["/css.json"],
-      "url": "https://raw.githubusercontent.com/Microsoft/vscode-css-languageservice/master/docs/customData.schema.json"
-    }
-  ]
+  "html.experimental.customData": ["./html.html-data.json"],
+  "css.experimental.customData": ["./css.css-data.json"]
 }

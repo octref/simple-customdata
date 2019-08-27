@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 1.1,
   "tags": [{
     "name": "my-button",
     "description": "My button",
@@ -9,6 +9,12 @@
       "values": [
         { "name": "alert" }
       ]
-    }]
+    }],
+    "references": [
+      {
+        "name": "Bootstrap buttons",
+        "url": "https://getbootstrap.com/docs/4.0/components/buttons/"
+      }
+    ]
   }]
 }
