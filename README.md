@@ -1,3 +1,7 @@
+# MOVED TO https://github.com/microsoft/vscode-custom-data
+
+---
+
 # Custom Data for HTML/CSS support in VS Code
 
 This demonstrates Custom HTML/CSS data support for VS Code.
